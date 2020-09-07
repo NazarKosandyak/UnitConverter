@@ -1,0 +1,1727 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 -15px;
+    overflow-x:hidden;
+
+}
+:root{
+scroll-behavior: smooth;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+header div.menu {
+    height: 130px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+header nav ul {
+    list-style-type: none;
+
+}
+
+header div.menu a.search {
+    margin-left: 40px;
+}
+
+header div.menu div a.logo {
+    display: block;
+    margin-left: 40px;
+    margin-top: 21px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: #ffd505;
+    text-decoration: underline;
+}
+
+header {
+    height: 950px;
+    background-image: url(../img/back-header1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 40px;
+    transition: 1s;
+}
+
+header div.call-to h1 {
+    margin-top: 250px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+header div.call-to h1 span {
+    color: #ffd505;
+}
+
+header div.call-to a {
+    display: block;
+    width: 215px;
+    height: 50px;
+    background: #ffd505;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 45px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header div.call-to a:hover {
+    background: white;
+    color: #ffd505;
+    transition: 0.5s;
+}
+
+
+/*******************************************************
+********************************************************
+********************Our converter***********************
+*******************************************************/
+
+.num2 {}
+
+section.our-converter h2 {
+    width: 350px;
+    text-align: center;
+    margin: 70px auto;
+    font-size: 42px;
+    color: #5E5858;
+    border-bottom: 1px solid #5E5858;
+    border-top: 1px solid #5E5858;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+div.our-converter section.our-converter div.converters {
+    padding-top: 70px;
+}
+
+div.converters div img {
+    display: block;
+    margin-left: 60px;
+}
+
+
+/**********************************************
+*****************style trans img**************/
+
+div.converters div img.mass {
+    transition: 0.3s;
+
+}
+
+div.converters div img.distance {
+    transition: 0.3s;
+}
+
+div.converters div img.volume {
+    transition: 0.3s;
+}
+
+div.converters div img.data {
+    transition: 0.3s;
+}
+
+div.container section.our-converter2 div.converters2 img.num {
+    margin-left: 180px;
+    transition: 0.3s;
+}
+
+div.container section.our-converter2 div.converters2 img.num1 {
+    transition: 0.3s;
+}
+
+div.container section.our-converter2 div.converters2 img.num2 {
+    transition: 0.3s;
+}
+
+
+/********************^^^^^^^^^^^^^^^^^^***********
+*****************^^^^^style trans img^^^^^^**************/
+
+section.our-converter div.converters div p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section.our-converter div.converters div p.volume {
+    margin-left: 30px;
+}
+
+div.container section.our-converter2 div.converters2 p.num {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 179px;
+    margin-top: 14px
+}
+
+div.container section.our-converter2 div.converters2 img.num1 {
+    margin-left: 120px;
+}
+
+div.container section.our-converter2 div.converters2 p.num1 {
+    text-align: center;
+    margin-left: 40px;
+}
+
+div.container section.our-converter2 div.converters2 img.num2 {
+    margin-left: 40px;
+}
+
+div.container section.our-converter2 div.converters2 p.num2 {
+    margin-left: 55px;
+}
+
+
+/*******************************************************
+********************************************************
+********************CONVERTORS***********************
+*******************************************************/
+
+div.our-converter p a.mass {
+    text-decoration: none;
+    color: #5E5858;
+}
+
+div.our-converter p label {
+    cursor: pointer;
+}
+
+div.our-converter p a.distance {
+    text-decoration: none;
+    color: #5E5858;
+}
+
+div.our-converter p label {
+    cursor: pointer;
+}
+
+div.our-converter p a.volume {
+    text-decoration: none;
+    color: #5E5858;
+}
+
+div.our-converter p label {
+    cursor: pointer;
+}
+
+div.our-converter p a.data {
+    text-decoration: none;
+    color: #5E5858;
+}
+
+div.our-converter p label {
+    cursor: pointer;
+}
+
+div.our-converter p a.speed {
+    text-decoration: none;
+    color: #5E5858;
+}
+
+div.our-converter p label {
+    cursor: pointer;
+}
+
+div.our-converter p a.area {
+    text-decoration: none;
+    color: #5E5858;
+}
+
+div.our-converter p label {
+    cursor: pointer;
+}
+
+div.our-converter p a.temp {
+    text-decoration: none;
+    color: #5E5858;
+}
+
+div.our-converter p label {
+    cursor: pointer;
+}
+
+
+/***************************************************
+********************** style img********************/
+
+div.converters div img.mass:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+section.our-converter2 div.converters2 img.num:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+div.converters div img.distance:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+div.converters div img.volume:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+div.converters div img.data:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+div.container section.our-converter2 div.converters2 img.num1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+div.container section.our-converter2 div.converters2 img.num2:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/******************************************************
+***********************style latter*******************/
+
+div.con1 span {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    background: #ffd505;
+    line-height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.con1 {
+    border-top: 1px solid #707070;
+    margin-top: 70px;
+    border-bottom: 1px solid #707070;
+}
+
+div.con1 p.con1 {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 20px;
+}
+
+input.con1 {
+    background: none;
+    border: 2px solid #ffd505;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 70px;
+}
+
+div.con2 span {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    background: #2ebaee;
+    line-height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+div.con2 p.con2 {
+    display: inline;
+    margin-left: 100px;
+    padding-right: 20px;
+}
+
+div.con2 {
+    border-bottom: 1px solid #707070;
+}
+
+input.con2 {
+    background: none;
+    border: 2px solid #2ebaee;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 70px;
+}
+
+div.con3 span {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    background: #FF5964;
+    line-height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+div.con3 p.con3 {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 20px;
+}
+
+input.con3 {
+    background: none;
+    border: 2px solid #FF5964;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 70px;
+}
+
+div.con3 {
+    border-bottom: 1px solid #707070;
+}
+
+div.con4 span {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    background: #00CECB;
+    line-height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+div.con4 p.con4 {
+    display: inline;
+    margin-left: 60px;
+    padding-right: 20px;
+}
+
+input.con4 {
+    background: none;
+    border: 2px solid #00CECB;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 70px;
+}
+
+div.con4 {
+    border-bottom: 1px solid #707070;
+}
+
+div.con5 span {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    background: #FE6625;
+    line-height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+div.con5 p.con5 {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 20px;
+}
+
+input.con5 {
+    background: none;
+    border: 2px solid #FE6625;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+div.con5 p.con5a {
+    display: inline;
+    margin-left: 155px;
+    padding-right: 40px;
+}
+
+input.con5a {
+    background: none;
+    border: 2px solid #FE6625;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+div.con5 p.con5b {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 29px;
+}
+
+input.con5b {
+    background: none;
+    border: 2px solid #FE6625;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+div.con5 p.con5t {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 30px;
+}
+
+input.con5t {
+    background: none;
+    border: 2px solid #FE6625;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+div.con5 p.con5tt {
+    display: inline;
+    margin-left: 155px;
+    padding-right: 18px;
+}
+
+input.con5tt {
+    background: none;
+    border: 2px solid #FE6625;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+div.con5 p.con5ttt {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 30px;
+}
+
+input.con5ttt {
+    background: none;
+    border: 2px solid #FE6625;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+div.con5 {
+    border-bottom: 1px solid #707070;
+}
+
+div.con6 span {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    background: #0068FF;
+    line-height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+div.con6 p.con6 {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 20px;
+}
+
+input.con6 {
+    background: none;
+    border: 2px solid #0068FF;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 70px;
+}
+
+div.con6 {
+    border-bottom: 1px solid #707070;
+}
+
+div.con7 span {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    background: #58E87B;
+    line-height: 80px;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+div.con7 p.con7 {
+    display: inline;
+    margin-left: 175px;
+    padding-right: 20px;
+}
+
+input.con7 {
+    background: none;
+    border: 2px solid #58E87B;
+    border-radius: 24px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+}
+
+
+/*******************************************************
+*********************************************************
+**********************About us**************************
+**********************************************************
+*********************************************************/
+
+div.about-us div.about {
+    background-image: url(../img/back-footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 650px;
+}
+
+div.about h2 {
+    font-size: 52px;
+    display: block;
+    width: 250px;
+    padding-bottom: 2px;
+    margin: 0px auto;
+    color: #ffffff;
+    border-bottom: 2px solid #ffd505;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.textus p.hello {
+    text-align: center;
+    margin: 25px auto;
+    color: white;
+    font-size: 25px;
+}
+
+div.textus span.welcome {
+    color: #ffd505;
+}
+
+div.textus p.second {
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+div.textus p.third {
+    text-align: center;
+    font-size: 25px;
+    width: 270px;
+    padding-bottom: 10px;
+    margin: 20px auto;
+    color: white;
+}
+
+div.textus span.our {
+    color: #ffd505;
+}
+
+div.textus span.dev1 {
+    color: #ffd505;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+div.textus p.dev1 {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+div.textus span.dev2 {
+    color: #ffd505;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+div.textus p.dev2 {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+div.textus span.dev3 {
+    color: #ffd505;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+div.textus p.dev3 {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+div.textus span.dev4 {
+    color: #ffd505;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+div.textus p.dev4 {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+div.textus span.dev5 {
+    color: #ffd505;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+div.textus p.dev5 {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+div.textus span.dev6 {
+    color: #ffd505;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+div.textus p.dev6 {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+div.textus span.dev7 {
+    color: #ffd505;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+
+div.textus p.dev7 {
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+
+/*********************************************
+**********************FAQ*********************/
+
+div.faq {
+    background-color: #041420;
+    background-repeat: no-repeat;
+    height: 740px;
+}
+
+div.faq div.faq1 h2 {
+    color: white;
+    display: block;
+    border-bottom: 2px solid #ffd505;
+    margin: 0px auto;
+    text-align: center;
+    width: 120px;
+    padding-top: 50px;
+    font-size: 52px;
+    padding-bottom: 10px;
+}
+
+div.faq1 div.textfaq span.main {
+    color: #ffd505;
+}
+
+div.faq1 div.textfaq p.main {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+div.faq1 div.textfaq span.first {
+    color: #ffd505;
+    display: block;
+}
+
+div.faq1 div.textfaq p.first {
+    color: white;
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 70px;
+    padding-left: 50px;
+    line-height: 22px;
+}
+
+div.faq1 div.textfaq span.second {
+    color: #ffd505;
+    display: block;
+}
+
+div.faq1 div.textfaq p.second {
+    color: white;
+    display: inline-block;
+    padding-left: 70px;
+    padding-left: 50px;
+    line-height: 22px;
+}
+
+div.faq1 div.textfaq span.third {
+    color: #ffd505;
+    display: block;
+}
+
+div.faq1 div.textfaq p.third {
+    color: white;
+    display: inline-block;
+    padding-left: 70px;
+    padding-left: 50px;
+    line-height: 22px;
+}
+
+div.faq1 div.textfaq span.fourth {
+    color: #ffd505;
+    display: block;
+}
+
+div.faq1 div.textfaq p.fourth {
+    color: white;
+    display: inline-block;
+    padding-left: 70px;
+    padding-left: 50px;
+    line-height: 22px;
+}
+
+div.faq1 div.textfaq span.fifth {
+    color: #ffd505;
+    display: block;
+}
+
+div.faq1 div.textfaq p.fifth {
+    color: white;
+    display: inline-block;
+    padding-left: 70px;
+    padding-left: 50px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+
+/********************************************
+********************************************
+****************CONTACT********************
+*******************************************/
+
+section.footer {
+    background-image: url(../img/back-footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 724px;
+}
+
+div.contact-with {
+    display: block;
+    color: #ffffff;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+section.footer p.address {
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 60px;
+    color: #ffffff;
+}
+
+section.footer img.location {
+    display: inline-block;
+    width: 20px;
+}
+
+section.footer p.stepan {
+    color: #ffd505;
+    font-size: 14px;
+    margin: 0px 0px 0px 50px;
+}
+
+section.footer img.phone {
+    width: 20px;
+    margin-top: 70px;
+}
+
+section.footer p.lets {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+section.footer p.phone {
+    color: #ffd505;
+    font-size: 14px;
+    margin: 0px 0px 0px 55px;
+}
+
+section.footer img.mail {
+    width: 20px;
+    margin-top: 70px;
+}
+
+section.footer p.support {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+section.footer p.mail {
+    color: #ffd505;
+    font-size: 14px;
+    margin: 0px 0px 0px 55px;
+}
+
+
+/*********************************
+****************FORM**************
+*********************************/
+
+section.footer input[type="text"] {
+    margin-top: 140px
+}
+
+section.footer input[type="email"] {
+    margin-top: 10px;
+}
+
+section.footer input.name {
+    background: none;
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid white;
+    line-height: 10px;
+    color: #ffd505;
+    padding-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    transition: 1s;
+}
+
+section.footer input.name:focus {
+    border-bottom: 1px solid #ffd505;
+    transition: 1s;
+}
+
+section.footer input.email {
+    background: none;
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid white;
+    line-height: 10px;
+    color: #ffd505;
+    padding-top: 30px;
+    margin-left: 50px;
+    outline: none;
+    transition: 1s;
+}
+
+section.footer input.email:focus {
+    border-bottom: 1px solid #ffd505;
+    transition: 1s;
+}
+
+section.footer textarea {
+    background: none;
+    resize: none;
+    width: 500px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #ffd505;
+    outline: none;
+    transition: 1s;
+}
+
+section.footer textarea:focus {
+    border: 1px solid #ffd505;
+    transition: 1s;
+}
+section.footer a{
+background: none;
+    text-decoration: none;
+    display: block;
+    border: none;
+    color: #ffffff;
+    width: 180px;
+    height: 40px;
+    background-color: #ffd505;
+    line-height: 40px;
+    border-radius: 60px;
+    text-align: center;
+    transition: 0.3s;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+section.footer a:hover{
+background-color: white;
+    color: #ffd505;
+    transition: 0.3s;
+}
+footer{
+height: 120px;
+    background: black;
+}
+footer p{
+margin: 0;
+    display: inline-block;
+color: #ffffff;
+    margin-top: 52px
+}
+footer ul{
+margin: 0;
+    display: inline-block;
+}
+footer  li{
+display: inline-block;
+    margin-right: 30px;
+    width: 30px
+}
+footer li.facebook img{
+transition: 0.6s;
+}
+footer li.facebook img:hover{
+transform: rotate(360deg);
+    transition: 0.6s;
+}
+footer li.twitter img{
+transition: 0.6s;
+}
+footer li.twitter img:hover{
+transform: rotate(360deg);
+    transition: 0.6s;
+}
+footer li.pinterest img{
+transition: 0.6s;
+}
+footer li.pinterest img:hover{
+transform: rotate(360deg);
+    transition: 0.6s;
+}
+footer li.mail img{
+transition: 0.6s;
+}
+footer li.mail img:hover{
+transform: rotate(360deg);
+    transition: 0.6s;
+}
+footer p.ani{
+animation: ani 1s alternate infinite;
+}
+@keyframes ani{
+    0%{
+    color: #ffd505;
+
+    }
+
+}
+footer p.ani2{
+
+    animation: ani 1s alternate infinite;
+}
+@keyframes ani2{
+    0%{
+    color: #ffd505;
+
+    }
+
+}
+/******************************************
+*******************************************
+******************ADAPTIVE*******************
+********************************************
+********************************************/
+
+
+@media (max-width: 575px) {
+header nav ul li a{
+    font-size: 9px;
+    }
+      header nav ul li{
+    margin-right: 5px;
+    }
+    div.converters div img{
+    width: 50px;
+        margin: 0 auto;
+    }
+    section.our-converter div.converters div p{
+    font-size: 16px;
+    }
+    div.container section.our-converter2 div.converters2 img.num{
+    width: 50px;
+        margin-left: 120px;
+    }
+    div.container section.our-converter2 div.converters2 p.num{
+    margin-left: 125px;
+        font-size: 16px;
+    }
+    div.container section.our-converter2 div.converters2 img.num1{
+    width: 50px;
+        margin-left: 100px
+    }
+    div.container section.our-converter2 div.converters2 p.num1{
+    margin-left:100px
+    }
+    div.container section.our-converter2 div.converters2 img.num2{
+    width: 50px;
+        margin-left: 85px;
+    }
+    div.con1 span{
+    width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    div.con1 p.con1{
+    margin-left: 70px;
+    }
+    div.con2 span{
+    width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    div.con3 span{
+    width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    div.con3 p.con3{
+    margin-left: 90px;
+    }
+     div.con4 span{
+    width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    div.con5 span{
+    width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    div.con5 p.con5{
+    margin-left: 60px;
+    }
+    div.con5 p.con5a{
+    margin-left: 60px;
+    }
+    div.con5 p.con5b{
+    margin-left: 60px;
+    }
+    div.con5 p.con5t{
+    margin-left: 60px;
+    }
+    div.con5 p.con5tt{
+    margin-left: 60px;
+    }
+    div.con5 p.con5ttt{
+    margin-left: 60px;
+    }
+    div.con6 span{
+    width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    div.con6 p.con6{
+    margin-left: 70px;
+    }
+    div.con7 span{
+    width: 300px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    div.con7 p.con7{
+    margin-left: 70px;
+    }
+    div.faq div.faq1 h2{
+    font-size: 30px;
+    }
+    div.faq1 div.textfaq p.main{
+    margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    div.faq1 div.textfaq span.first{
+    font-size: 13px;
+
+    }
+    div.faq1 div.textfaq p.first{
+    margin-top: 20px;
+    }
+    div.faq1 div.textfaq span.second{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.second{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.third{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.fourth{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.fifth{
+    font-size: 13px;
+    }
+    div.contact-with{
+    font-size: 30px;
+     text-align: center;
+    }
+    section.footer p.address{
+   font-size: 20px;
+
+    }
+    section.footer img.location{
+    width: 15px;
+        margin-left: 150px
+    }
+    section.footer p.lets{
+    font-size: 20px;
+    }
+    section.footer img.phone{
+    margin-top: 20px;
+        margin-left: 140px;
+    }
+    section.footer p.phone{
+    margin-left: 180px;
+    }
+    section.footer p.support{
+    font-size:
+    }
+    section.footer img.mail{
+    margin-left: 90px;
+        margin-top: 10px;
+    }
+    section.footer p.mail{
+    margin-left: 140px;
+    }
+    section.footer input.name{
+    display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        height: 30px;
+        padding-top: 10px;
+        width: 350px;
+
+    }
+    section.footer input.email{
+    display: block;
+        margin: 0 auto;
+        height: 30px;
+        padding-top: 10px;
+        width: 350px;
+    }
+    section.footer textarea{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 100px;
+        width: 350px;
+    }
+    section.footer a{
+     display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    footer p.ani{
+        display: block;
+    text-align: center;
+        margin-top: 10px;
+    }
+
+    footer li{
+    margin-right: 10px;
+        margin-top: 20px;
+    }
+    footer p.ani2{
+    display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header nav ul li a{
+    font-size: 12px;
+    }
+    header nav ul li{
+    margin-right: 10px;
+    }
+    header nav ul li a img.search{
+    width: 15px;
+       padding-left: 0px;
+    }
+    div.converters div img{
+    width: 60px;
+        margin: 0 auto;
+    }
+    div.our-converter p a.mass{
+    font-size: 15px;
+
+    }
+    div.our-converter p a.volume{
+    font-size: 15px;
+    }
+    div.our-converter p a.distance{
+    font-size: 15px;
+    }
+    div.our-converter p a.data{
+    font-size: 15px;
+    }
+    div.container section.our-converter2 div.converters2 img.num{
+    width: 60px;
+       margin-left: 70px
+    }
+   div.our-converter p a.speed{
+    font-size: 15px;
+        margin: 20p;
+    }
+    div.container section.our-converter2 div.converters2 img.num1{
+    width: 60px;
+        margin-left: 70px;
+    }
+    div.our-converter p a.speed{
+    font-size: 15px;
+
+    }
+    div.our-converter p a.area{
+    font-size: 15px;
+    }
+    div.container section.our-converter2 div.converters2 p.num{
+    margin-left: 40px;
+    }
+    div.container section.our-converter2 div.converters2 img.num2{
+    width: 60px;
+        margin-left: 80px;
+    }
+    div.con2 p.con2{
+    margin-left: 5px;
+    }
+    input.con2{
+    width: 140px;
+        height:
+    }
+    div.faq1 div.textfaq span.first{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.first{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.second{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.third{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.fourth{
+    font-size: 13px;
+    }
+    div.faq1 div.textfaq p.fifth{
+    font-size: 13px;
+    }
+    div.contact-with{
+    font-size: 32px;
+        padding-top: 10px;
+    }
+    section.footer p.address{
+    margin-top: 15px;
+        font-size: 19px;
+    }
+    section.footer p.stepan{
+    font-size: 10px;
+    }
+    section.footer img.location{
+    width: 15px;
+    }
+    section.footer img.phone{
+    margin-top: 10px;
+    }
+    section.footer p.lets{
+    font-size: 19px;
+    }
+    section.footer p.phone{
+    font-size: 10px;
+    }
+    section.footer img.phone{
+    width: 15px;
+    }
+    section.footer img.mail{
+    margin-top: 10px;
+    }
+    section.footer p.support{
+    font-size: 19px;
+    }
+    section.footer p.mail{
+    font-size: 10px;
+    }
+    section.footer img.mail{
+    width: 15px;
+    }
+    section.footer input.name{
+    margin-top: 15px;
+        height: 50px;
+            padding-top: 10px;
+        width: 400px;
+        margin-left: 85px;
+    }
+    section.footer input.email{
+    margin-top: 5px;
+        height: 40px;
+        padding-top: 10px;
+        width: 400px;
+        margin-left: 85px;
+    }
+    section.footer textarea{
+height: 90px;
+         width: 400px;
+        margin-left: 85px;
+    }
+    footer p.ani{
+    font-size: 15px;
+        margin-left:50px;
+            margin-top: 30px;
+        padding-bottom: 15px;
+
+
+    }
+    footer li{
+    width: 10px;
+    }
+    footer p.ani2{
+    margin-left: 10px;
+        margin-top: 30px;
+        text-align: right;
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header nav ul li{
+    margin-right: 10px;
+    }
+    div.converters div img{
+    width: 80px;
+margin: 0 auto;
+    }
+    div.container section.our-converter2 div.converters2 img.num{
+    width: 80px;
+        margin-left: 160px;
+    }
+    div.container section.our-converter2 div.converters2 img.num1{
+    width: 80px;
+        margin-left: 90px;
+    }
+    div.container section.our-converter2 div.converters2 img.num2{
+    width: 80px;
+        margin-left: 70px;
+    }
+    div.con1 p.con1{
+    margin-left: 10px;
+    }
+    input.con1{
+    width: 130px;
+        height: 30px
+    }
+    div.con2 p.con2{
+    margin-left: 10px;
+        padding-right: 10px;
+    }
+    input.con2{
+    width: 130px;
+        height: 30px;
+    }
+    div.con3 p.con3{
+    margin-left: 10px;
+    }
+    input.con3{
+    width: 130px;
+        height: 30px;
+    }
+    input.con4{
+    width: 150px;
+        height: 30px;
+    }
+    div.con5 p.con5{
+    margin-left: 10px;
+        padding-right: 10px;
+    }
+    input.con5{
+    width: 130px;
+        height: 30px;
+    }
+    div.con5 p.con5a{
+    margin-left: 10px;
+        padding-right: 10px
+    }
+    input.con5a{
+    width: 130px;
+        height: 30px;
+    }
+    div.con5 p.con5b{
+    margin-left: 10px;
+        padding-right: 10px;
+    }
+    input.con5b{
+    width: 130px;
+        height: 30px;
+    }
+    div.con5 p.con5t{
+    margin-left: 10px;
+        padding-right: 10px;
+    }
+    input.con5t{
+    width: 130px;
+        height: 30px;
+    }
+    div.con5 p.con5tt{
+    margin-left: 10px;
+        padding-right: 10px;
+    }
+    input.con5tt{
+    width: 130px;
+        height: 30px;
+    }
+    div.con5 p.con5ttt{
+    margin-left: 10px;
+        padding-right: 10px;
+    }
+    input.con5ttt{
+    width: 130px;
+        height: 30px;
+    }
+    div.con6 p.con6{
+    margin-left: 20px;
+        padding-right: 10px;
+    }
+    input.con6{
+    width: 130px;
+        height: 30px;
+    }
+    div.con7 p.con7{
+    margin-left: 30px;
+        padding-right: 20px;
+
+    }
+    input.con7{
+    width: 150px;
+        height: 30px;
+    }
+    section.footer input.name{
+    margin-top: 20px;
+        padding-top: 20px;
+        height: 40px;
+    }
+    section.footer input.email{
+    height: 30px;
+        padding-top: 10px;
+    }
+    section.footer p.address{
+    margin-top: 20px
+    }
+   section.footer img.phone{
+    margin-top: 30px;
+    }
+    section.footer img.mail{
+    margin-top: 20px;
+    }
+    section.footer textarea{
+    height: 70px;
+    }
+    footer p.ani2{
+    margin-left: 0px;
+    }
+    footer p{
+    font-size: 13px;
+    }
+    footer li{
+    margin-right: 10px;
+    }
+   footer li.facebook img{
+    width: 6px
+    }
+    footer li.twitter img{
+    width: 15px;
+    }
+    footer li.pinterest img{
+    width: 11px;
+    }
+    footer li.mail img{
+    width: 17px;
+    }
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header nav ul li{
+    margin-right: 20px;
+    }
+    footer p.ani2{
+    margin-top: 40px;
+        margin-left: 0;
+    }
+    div.con1 p.con1{
+    margin-left: 40px;
+    }
+    div.con2 p.con2{
+    margin-left: 20px;
+    }
+    div.con3 p.con3{
+    margin-left: 40px;
+    }
+    div.con4 p.con4{
+    margin-left: 10px;
+    }
+    div.con5 p.con5b{
+    padding-right: 17px
+    }
+    div.con5 p.con5tt{
+    padding-right: 26px;
+    }
+    div.con5 p.con5t{
+    margin-left: 160px;
+        padding-right: 35px;
+    }
+    div.con5 p.con5ttt{
+    margin-left: 155px;
+
+    }
+    div.con6 p.con6{
+    margin-left: 40px;
+    }
+    div.con7 p.con7{
+    margin-left: 20px;
+    }
+    footer p.ani2{
+    text-align: right;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1409.98px) {
+    footer p.ani2{
+    margin-left: 0;
+    }
+    div.con1 p.con1{
+    margin-left: 80px;
+    }
+    div.con3 p.con3{
+    margin-left: 80px;
+    }
+    div.con4 p.con4{
+    padding: 0;
+        margin-right: 20px;
+    }
+    div.con5 p.con5{
+    margin-left: 80px;
+    }
+    div.con5 p.con5a{
+    margin-left: 80px;
+    }
+    div.con5 p.con5b{
+    margin-left: 80px;
+    }
+    div.con5 p.con5t{
+    margin-left: 80px;
+    }
+    div.con5 p.con5tt{
+    margin-left: 80px;
+    }
+    div.con5 p.con5ttt{
+    margin-left: 80px;
+    }
+    div.con6 p.con6{
+    margin-left: 80px;
+    }
+    div.con7 p.con7{
+    margin-left: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+

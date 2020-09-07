@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unit-converter</title>
+    <link rel="stylesheet" href="style/project.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"> </head>
+
+<body>
+    <div class="container-fluid num2">
+        <header>
+            <div class="row no-gutters menu">
+                <div class="col-lg-3 col-md-2 col-sm-2 col-2">
+                    <a class="logo" href="//"><img src="img/logopr1.png" alt=""></a>
+                </div>
+                <div class="col-lg-9 col-md-10 col-sm-10 col-10 ">
+                    <nav class="d-flex flex-row-reverse">
+                        <ul class="p-2">
+                            <li><a href="">Homepage</a></li>
+                            <li><a href="#our-conversion">Our conversion</a></li>
+                            <li><a href="#about-us">About us</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#contact">Contacts</a></li>
+                            <li>
+                                <a href="#search" class="search"><img class="search" src="img/ico-search.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="call-to  no-gutters">
+                <div class="col-12">
+                    <h1><span>Made</span> for you</h1> <a class="Go to converter" href="#mass">Go to converter</a> </div>
+            </div>
+        </header>
+    </div>
+    <div class="our-converter">
+        <div class="container">
+            <section class="our-converter">
+                <h2 id="our-conversion">Our conversion</h2>
+                <div class=" row no-gutters converters">
+                    <div class="col-3">
+                        <a href="#mass"><img class="mass" src="img/Weight and mass.png" alt="distance"></a>
+                        <p id="mass">
+                            <a class="mass" href="#mass">
+                                <label for="mass">Weight and mass</label>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <a href="#distance"><img class="distance" src="img/distance.png" alt="distance"></a>
+                        <p>
+                            <a class="distance" href="#distance">
+                                <label class="distance" for="distance">Length and distance</label>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <a href="#volume"><img class="volume" src="img/measuring-cup.png" alt="distance"></a>
+                        <p>
+                            <a class="volume" href="#volume">
+                                <label class="volume" for="volume">Volume</label>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <a href="#data"><img class="data" src="img/devices.png" alt="distance"></a>
+                        <p>
+                            <a class="data" href="#data">
+                                <label class="data" for="data">Digital data</label>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="our-converter2">
+                <div class="row no-gutters converters2">
+                    <div class="col-4">
+                        <a href="#speed"> <img class="num" src="img/time.png" alt=""></a>
+                        <p class="num">
+                            <a class="speed" href="#speed">
+                                <label for="speed">Speed</label>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <a href="#area"><img class="num1" src="img/area.png" alt=""></a>
+                        <p class="num1">
+                            <a class="area" href="#area">
+                                <label for="area">Area</label>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <a href="#temp"><img class="num2" src="img/temperature.png" alt=""></a>
+                        <p class="num2">
+                            <a class="temp" href="#temp">
+                                <label for="temp">Temperature</label>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class=" no-gutters con1"> <span id="mass">Weight and mass conversion:</span>
+            <p class="con1">Kilograms:</p>
+            <input class="con1" oninput="calcFromKilograms()" onchange="calcFromKilograms()" type="number" placeholder="Enter value" id="kilograms" />
+            <p class="con1">Grams:</p>
+            <input class="con1" oninput="calcFromGrams()" onchange="calcFromGrams()" type="number" placeholder="Enter value" id="grams" />
+            <p class="con1">Milligrams:</p>
+            <input class="con1" oninput="calcFromMiligrams()" onchange="calcFromMiligrams()" type="number" placeholder="Enter value" id="milligrams" />
+            <script>
+                function calcFromKilograms() {
+                    a = document.getElementById("kilograms").value;
+                    b = document.getElementById("grams").value;
+                    c = document.getElementById("milligrams").value;
+                    document.getElementById("grams").value = a * 1000;
+                    document.getElementById("milligrams").value = a * 1000000;
+                }
+
+                function calcFromGrams() {
+                    a = document.getElementById("kilograms").value;
+                    b = document.getElementById("grams").value;
+                    c = document.getElementById("milligrams").value;
+                    document.getElementById("kilograms").value = b / 1000;
+                    document.getElementById("milligrams").value = b * 1000;
+                }
+
+                function calcFromMiligrams() {
+                    a = document.getElementById("kilograms").value;
+                    b = document.getElementById("grams").value;
+                    c = document.getElementById("milligrams").value;
+                    document.getElementById("grams").value = c / 1000;
+                    document.getElementById("kilograms").value = c / 1000000;
+                }
+            </script>
+        </div>
+        <div class="no-gutters con2"> <span id="distance">Length and distance conversion:</span>
+            <p class="con2">Kilometre:</p>
+            <input class="con2" oninput="calcFromKilometre()" onchange="calcFromKilometre()" type="number" placeholder="Enter value" id="kilometres" />
+            <p class="con2">Metre:</p>
+            <input class="con2" oninput="calcFromMetre()" onchange="calcFromMetre()" type="number" placeholder="Enter value" id="metres" />
+            <p class="con2">Centimetre:</p>
+            <input class="con2" oninput="calcFromCentimetre()" onchange="calcFromCentimetre()" type="number" placeholder="Enter value" id="centimetres" />
+            <p class="con2">Millimetre:</p>
+            <input class="con2" oninput="calcFromMillimetre()" onchange="calcFromMillimetre()" type="number" placeholder="Enter value" id="millimetres" />
+            <script>
+                function calcFromKilometre() {
+                    a = document.getElementById("kilometres").value;
+                    b = document.getElementById("metres").value;
+                    c = document.getElementById("centimetres").value;
+                    d = document.getElementById("millimetres").value;
+                    document.getElementById("metres").value = (a * 1000);
+                    document.getElementById("centimetres").value = (a * 100000);
+                    document.getElementById("millimetres").value = (a * 1000000);
+                }
+
+                function calcFromMetre() {
+                    a = document.getElementById("kilometres").value;
+                    b = document.getElementById("metres").value;
+                    c = document.getElementById("centimetres").value;
+                    d = document.getElementById("millimetres").value;
+                    document.getElementById("kilometres").value = (b / 1000);
+                    document.getElementById("centimetres").value = (b * 100);
+                    document.getElementById("millimetres").value = (b * 1000);
+                }
+
+                function calcFromCentimetre() {
+                    a = document.getElementById("kilometres").value;
+                    b = document.getElementById("metres").value;
+                    c = document.getElementById("centimetres").value;
+                    d = document.getElementById("millimetres").value;
+                    document.getElementById("kilometres").value = (c / 100000);
+                    document.getElementById("metres").value = (c / 100);
+                    document.getElementById("millimetres").value = (c * 10);
+                }
+
+                function calcFromMillimetre() {
+                    a = document.getElementById("kilometres").value;
+                    b = document.getElementById("metres").value;
+                    c = document.getElementById("centimetres").value;
+                    d = document.getElementById("millimetres").value;
+                    document.getElementById("kilometres").value = (d / 1000000);
+                    document.getElementById("metres").value = (d / 1000);
+                    document.getElementById("centimetres").value = (d / 10);
+                }
+            </script>
+        </div>
+        <div class="no-gutters con3"> <span id="volume">Volume conversion:</span>
+            <p class="con3">Сubic metre:</p>
+            <input class="con3" oninput="calcFromCubicmetre()" onchange="calcFromCubicmetre()" type="number" placeholder="Enter value" id="cubicmetres" />
+            <p class="con3">Litre:</p>
+            <input class="con3" oninput="calcFromLitre()" onchange="calcFromLitre()" type="number" placeholder="Enter value" id="litres" />
+            <p class="con3">Millilitre:</p>
+            <input class="con3" oninput="calcFromMillilitre()" onchange="calcFromMillilitre()" type="number" placeholder="Enter value" id="millilitres" />
+            <script>
+                function calcFromCubicmetre() {
+                    a = document.getElementById("cubicmetres").value;
+                    b = document.getElementById("litres").value;
+                    c = document.getElementById("millilitres").value;
+                    document.getElementById("litres").value = a * 1000;
+                    document.getElementById("millilitres").value = a * 1000000;
+                }
+
+                function calcFromLitre() {
+                    a = document.getElementById("cubicmetres").value;
+                    b = document.getElementById("litres").value;
+                    c = document.getElementById("millilitres").value;
+                    document.getElementById("cubicmetres").value = b / 1000;
+                    document.getElementById("millilitres").value = b * 1000;
+                }
+
+                function calcFromMillilitre() {
+                    a = document.getElementById("cubicmetres").value;
+                    b = document.getElementById("litres").value;
+                    c = document.getElementById("millilitres").value;
+                    document.getElementById("litres").value = c / 1000;
+                    document.getElementById("cubicmetres").value = c / 1000000;
+                }
+            </script>
+        </div>
+        <div class="no-gutters con4"> <span id="data">Digital data conversion:</span>
+            <p class="con4">Gigabyte(Gb):</p>
+            <input class="con4" oninput="calcFromGigabyte()" onchange="calcFromGigabyte()" type="number" placeholder="Enter value" id="gigabyte" />
+            <p class="con4">Megabyte(Mb):</p>
+            <input class="con4" oninput="calcFromMegabyte()" onchange="calcFromMegabyte()" type="number" placeholder="Enter value" id="megabyte" />
+            <p class="con4">Gigabit(Gbit):</p>
+            <input class="con4" oninput="calcFromGigabit()" onchange="calcFromGigabit()" type="number" placeholder="Enter value" id="gigabit" />
+            <p class="con4">Megabit(Mbit):</p>
+            <input class="con4" oninput="calcFromMegabit()" onchange="calcFromMegabit()" type="number" placeholder="Enter value" id="megabit" />
+            <script>
+                function calcFromGigabyte() {
+                    a = document.getElementById("gigabyte").value;
+                    b = document.getElementById("megabyte").value;
+                    c = document.getElementById("gigabit").value;
+                    d = document.getElementById("megabit").value;
+                    document.getElementById("megabyte").value = a * 1024;
+                    document.getElementById("gigabit").value = a * 8;
+                    document.getElementById("megabit").value = a * 8192;
+                }
+
+                function calcFromMegabyte() {
+                    a = document.getElementById("gigabyte").value;
+                    b = document.getElementById("megabyte").value;
+                    c = document.getElementById("gigabit").value;
+                    d = document.getElementById("megabit").value;
+                    document.getElementById("gigabyte").value = b / 1024;
+                    document.getElementById("gigabit").value = b / 128;
+                    document.getElementById("megabit").value = b * 8;
+                }
+
+                function calcFromGigabit() {
+                    a = document.getElementById("gigabyte").value;
+                    b = document.getElementById("megabyte").value;
+                    c = document.getElementById("gigabit").value;
+                    d = document.getElementById("megabit").value;
+                    document.getElementById("gigabyte").value = c / 8;
+                    document.getElementById("megabyte").value = c * 128;
+                    document.getElementById("megabit").value = c * 1024;
+                }
+
+                function calcFromMegabit() {
+                    a = document.getElementById("gigabyte").value;
+                    b = document.getElementById("megabyte").value;
+                    c = document.getElementById("gigabit").value;
+                    d = document.getElementById("megabit").value;
+                    document.getElementById("gigabyte").value = d / 8192;
+                    document.getElementById("megabyte").value = d / 8;
+                    document.getElementById("gigabit").value = d / 1024;
+                }
+            </script>
+        </div>
+        <div class=" no-gutters con5"> <span id="speed"> Speed conversion: </span>
+            <p class="con5">KmPerSec:</p>
+            <input class="con5" oninput="calcFromKPS()" onchange="calcFromKPS()" type="number" placeholder="Enter value" id="kps" />
+            <p class="con5a">MPerSec:</p>
+            <input class="con5a" oninput="calcFromMPS()" onchange="calcFromMPS()" type="number" placeholder="Enter value" id="mps" />
+            <p class="con5b">KmPerMin:</p>
+            <input class="con5b" oninput="calcFromKPM()" onchange="calcFromKPM()" type="number" placeholder="Enter value" id="kpm" />
+            <p class="con5t">MPerMin:</p>
+            <input class="con5t" oninput="calcFromMPM()" onchange="calcFromMPM()" type="number" placeholder="Enter value" id="mpm" />
+            <p class="con5tt">KmPerHour:</p>
+            <input class="con5tt" oninput="calcFromKPH()" onchange="calcFromKPH()" type="number" placeholder="Enter value" id="kph" />
+            <p class="con5ttt">MPerHour:</p>
+            <input class="con5ttt" oninput="calcFromMPH()" onchange="calcFromMPH()" type="number" placeholder="Enter value" id="mph" />
+            <script>
+                function calcFromKPS() {
+                    a = document.getElementById("kps").value;
+                    b = document.getElementById("mps").value;
+                    c = document.getElementById("kpm").value;
+                    d = document.getElementById("mpm").value;
+                    e = document.getElementById("kph").value;
+                    f = document.getElementById("mph").value;
+                    document.getElementById("mps").value = (a * 1000).toPrecision(6);
+                    document.getElementById("kpm").value = (a * 60).toPrecision(6);
+                    document.getElementById("mpm").value = (a * 60000).toPrecision(6);
+                    document.getElementById("kph").value = (a * 3600).toPrecision(6);
+                    document.getElementById("mph").value = (a * 3600000).toPrecision(6);
+                }
+
+                function calcFromMPS() {
+                    a = document.getElementById("kps").value;
+                    b = document.getElementById("mps").value;
+                    c = document.getElementById("kpm").value;
+                    d = document.getElementById("mpm").value;
+                    e = document.getElementById("kph").value;
+                    f = document.getElementById("mph").value;
+                    document.getElementById("kps").value = (b / 1000).toPrecision(5);
+                    document.getElementById("kpm").value = (b * 0.06).toPrecision(5);
+                    document.getElementById("mpm").value = (b * 60).toPrecision(5);
+                    document.getElementById("kph").value = (b * 3.6).toPrecision(5);
+                    document.getElementById("mph").value = (b * 3600).toPrecision(5);
+                }
+
+                function calcFromKPM() {
+                    a = document.getElementById("kps").value;
+                    b = document.getElementById("mps").value;
+                    c = document.getElementById("kpm").value;
+                    d = document.getElementById("mpm").value;
+                    e = document.getElementById("kph").value;
+                    f = document.getElementById("mph").value;
+                    document.getElementById("kps").value = (c / 60).toPrecision(5);
+                    document.getElementById("mps").value = (c / 0.06).toPrecision(5);
+                    document.getElementById("mpm").value = (c * 1000).toPrecision(5);
+                    document.getElementById("kph").value = (c * 60).toPrecision(5);
+                    document.getElementById("mph").value = (c * 60000).toPrecision(5);
+                }
+
+                function calcFromMPM() {
+                    a = document.getElementById("kps").value;
+                    b = document.getElementById("mps").value;
+                    c = document.getElementById("kpm").value;
+                    d = document.getElementById("mpm").value;
+                    e = document.getElementById("kph").value;
+                    f = document.getElementById("mph").value;
+                    document.getElementById("kps").value = (d / 60000).toPrecision(5);
+                    document.getElementById("mps").value = (d / 60).toPrecision(5);
+                    document.getElementById("kpm").value = (d / 1000).toPrecision(5);
+                    document.getElementById("kph").value = (d * 0.06).toPrecision(5);
+                    document.getElementById("mph").value = (d * 60).toPrecision(5);
+                }
+
+                function calcFromKPH() {
+                    a = document.getElementById("kps").value;
+                    b = document.getElementById("mps").value;
+                    c = document.getElementById("kpm").value;
+                    d = document.getElementById("mpm").value;
+                    e = document.getElementById("kph").value;
+                    f = document.getElementById("mph").value;
+                    document.getElementById("kps").value = (e / 3600).toPrecision(5);
+                    document.getElementById("mps").value = (e / 3.6).toPrecision(5);
+                    document.getElementById("kpm").value = (e / 60).toPrecision(5);
+                    document.getElementById("mpm").value = (e / 0.06).toPrecision(5);
+                    document.getElementById("mph").value = (e * 1000).toPrecision(5);
+                }
+
+                function calcFromMPH() {
+                    a = document.getElementById("kps").value;
+                    b = document.getElementById("mps").value;
+                    c = document.getElementById("kpm").value;
+                    d = document.getElementById("mpm").value;
+                    e = document.getElementById("kph").value;
+                    f = document.getElementById("mph").value;
+                    document.getElementById("kps").value = (f / 3600000).toPrecision(6);
+                    document.getElementById("mps").value = (f / 3600).toPrecision(6);
+                    document.getElementById("kpm").value = (f / 60000).toPrecision(6);
+                    document.getElementById("mpm").value = (f / 60).toPrecision(6);
+                    document.getElementById("kph").value = (f / 1000).toPrecision(6);
+                }
+            </script>
+        </div>
+        <div class="no-gutters con6"> <span id="temp">Temperature conversion:</span>
+            <p class="con6">Celcius:</p>
+            <input class="con6" oninput="calcFromCelsius()" onchange="calcFromCelsius()" type="number" placeholder="Enter value" id="cels" />
+            <p class="con6">Fahrenheit:</p>
+            <input class="con6" oninput="calcFromFahrenheit()" onchange="calcFromFahrenheit()" type="number" placeholder="Enter value" id="fahr" />
+            <p class="con6">Kelvin:</p>
+            <input class="con6" oninput="calcFromKelvin()" onchange="calcFromKelvin()" type="number" placeholder="Enter value" id="kelv" />
+            <script>
+                function calcFromCelsius() {
+                    a = document.getElementById("cels").value;
+                    b = document.getElementById("fahr").value;
+                    c = document.getElementById("kelv").value;
+                    document.getElementById("fahr").value = (a * (9 / 5) + 32).toFixed(2);
+                    document.getElementById("kelv").value = (a * 1 + 273.15).toFixed(2);
+                }
+
+                function calcFromFahrenheit() {
+                    a = document.getElementById("cels").value;
+                    b = document.getElementById("fahr").value;
+                    c = document.getElementById("kelv").value;
+                    document.getElementById("cels").value = ((b - 32) * (5 / 9)).toFixed(2);
+                    document.getElementById("kelv").value = ((b - 32) * (5 / 9) + 273.15).toFixed(2);
+                }
+
+                function calcFromKelvin() {
+                    a = document.getElementById("cels").value;
+                    b = document.getElementById("fahr").value;
+                    c = document.getElementById("kelv").value;
+                    document.getElementById("cels").value = (c - 273.15).toFixed(2);
+                    document.getElementById("fahr").value = ((c * 9 / 5) - 459.67).toFixed(2);
+                }
+            </script>
+        </div>
+        <div class="con7"> <span id="area"> Area conversion:</span>
+            <p class="con7">Square Kilometre:</p>
+            <input class="con7" oninput="calcFromSqKilometre()" onchange="calcFromSqKilometre()" type="number" placeholder="Enter value" id="sqkm" />
+            <p class="con7">Square Metre:</p>
+            <input class="con7" oninput="calcFromSqMetre()" onchange="calcFromSqMetre()" type="number" placeholder="Enter value" id="sqm" />
+            <p class="con7">Hectare:</p>
+            <input class="con7" oninput="calcFromHectare()" onchange="calcFromHectare()" type="number" placeholder="Enter value" id="hectare" />
+            <script>
+                function calcFromSqKilometre() {
+                    a = document.getElementById("sqkm").value;
+                    b = document.getElementById("sqm").value;
+                    c = document.getElementById("hectare").value;
+                    document.getElementById("sqm").value = a * 1000000;
+                    document.getElementById("hectare").value = a * 100;
+                }
+
+                function calcFromSqMetre() {
+                    a = document.getElementById("sqkm").value;
+                    b = document.getElementById("sqm").value;
+                    c = document.getElementById("hectare").value;
+                    document.getElementById("sqkm").value = b / 1000000;
+                    document.getElementById("hectare").value = b / 10000;
+                }
+
+                function calcFromHectare() {
+                    a = document.getElementById("sqkm").value;
+                    b = document.getElementById("sqm").value;
+                    c = document.getElementById("hectare").value;
+                    document.getElementById("sqkm").value = c / 100;
+                    document.getElementById("sqm").value = c * 10000;
+                }
+            </script>
+        </div>
+    </div>
+    <div id="about-us" class="container-fluid about-us">
+        <section class="us1">
+            <div class="no-gutters about">
+                <h2>About us</h2>
+                <div class="textus">
+                    <p class="hello"><span class="welcome">Welcome</span> to our website!</p>
+                    <p class="second">It is created by a team of students of Lviv Polytechnic National University to provide you with a rapid conversion of the most common units.</p>
+                    <p class="third"><span class="our">Our</span> team consists of:</p>
+                    <p class="dev1"><span class="dev1">Havrylyshyn Oleksandr</span> — back-end developer</p>
+                    <p class="dev2"><span class="dev2">Horban' Rostyslav</span> — quality engineer, technical writer</p>
+                    <p class="dev3"><span class="dev3">Styranets' Mykola</span> — quality engineer, technical writer</p>
+                    <p class="dev4"><span class="dev4">Korol' Maksym</span> — back-end developer, software architect</p>
+                    <p class="dev5"><span class="dev5">Kosandiak Nazar</span> — front-end developer, user interface designer</p>
+                    <p class="dev6"><span class="dev6">Kulchytskyy Dmytro</span> — quality engineer, technical writer</p>
+                    <p class="dev7"><span class="dev7">Khakhula Lyubomyr</span> — quality engineer, technical writer</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid faq">
+        <div class="no-gutters faq1">
+            <h2 id="faq">FAQ</h2>
+            <div class="textfaq">
+                <p class="main"><span class="main">Frequently</span> asked questions:</p>
+                <p class="first"><span class="first">What is the purpose of your website?</span> <i>— The purpose of our website is to provide you with rapid conversion of units.</i></p>
+                <p class="second"><span class="second">What is conversion of units and how does it work?</span> <i>— Conversion of units is the conversion between different units of measurement for the same quantity,
+     typically through multiplicative conversion factors.</i></p>
+                <p class="third"><span class="third">Which converters do you provide?</span> <i>— Actually, we can provide you with 7 converters: weight and mass conversion, length and distance conversion,
+     volume conversion, digital data conversion, speed conversion, area conversion and the last - temperature conversion.</i></p>
+                <p class="fourth"><span class="fourth">Do I have to pay to use your site's services?</span> <i>— No, you don't have to pay money for using our services, our site works for free for all users.</i></p>
+                <p class="fifth"><span class="fifth">What should I do if I notice an error or a bug?</span> <i>— If you've spotted an error or bug, please, feel free to email us (unitconverter-fb@gmail.com) and describe your issue.</i></p>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-5 col-md-12">
+                    <div id="contact" class="contact-with"> Contact with us: </div> <img class="location" src="img/placeholder.png" alt="location">
+                    <p class="address">Adress</p>
+                    <p class="stepan">12, Stepan Bandera street, Lviv, Lviv region, 79000</p> <img class="phone" src="img/phone.png" alt="phone">
+                    <p class="lets">Lets Talk</p>
+                    <p class="phone">(032) 258-26-63</p> <img class="mail" src="img/mail.png" alt="mail">
+                    <p class="support">General Support</p>
+                    <p class="mail">unitconverter-fb@gmail.com</p>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <form action="" method="">
+                        <input class="name" type="text" placeholder="Name">
+                        <input class="email" type="email" placeholder="Email">
+                        <textarea></textarea> <a href="#send">Send messege</a> </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-6 col-md-9">
+                    <p class="ani">Look for us here:</p>
+                    <ul>
+                        <li class="facebook">
+                            <a href=""><img src="img/ico-15.png" alt="facebook"></a>
+                        </li>
+                        <li class="twitter">
+                            <a href=""><img src="img/ico-16.png" alt="twitter"></a>
+                        </li>
+                        <li class="pinterest">
+                            <a href=""><img src="img/ico-17.png" alt="pinterst"></a>
+                        </li>
+                        <li class="mail">
+                            <a href=""><img src="img/ico-19.png" alt="mail"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <p id="search" class="ani2">Copyright ⓒ 2020. All rights reserved by NU:LP</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
